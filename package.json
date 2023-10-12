@@ -1,0 +1,69 @@
+{
+  
+  "dependencies": {
+  
+    
+  "normalize.css": "^8.0.1",
+  
+    
+  "vite": "^4.4.11"
+  
+  },
+  
+  "name": "my_website",
+  
+  "version": "1.0.0",
+  
+  "main": "./src/index.js",
+  
+  "type": "module",
+  
+  "scripts": {
+  
+    
+  "dev": "node ./src/index.js",
+  
+    
+  "build": "webpack --config webpack.config.js",
+  
+    
+  "lint": "eslint . --ext js,jsx,ts,tsx --fix",
+  
+    
+  "watch": "webpack --watch --progress",
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1",
+  
+    
+  "start": "node ./src/index.js"
+  
+  },
+  
+  "repository": {
+  
+    
+  "type": "git",
+  
+    
+  "url": "git+https://github.com/ustankie/Mountain_website.git"
+  
+  },
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "bugs": {
+  
+    
+  "url": "https://github.com/ustankie/Mountain_website/issues"
+  
+  },
+  
+  "homepage": "https://github.com/ustankie/Mountain_website#readme",
+  
+  "description": ""
+}
