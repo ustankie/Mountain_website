@@ -5,7 +5,7 @@
 }
 .banner{
     height: 150px;
-    background-color: #e6f9ff; 
+    /* background-color: #e6f9ff;  */
     padding-left: 250px;
     text-align: center;
     display: flex;
@@ -27,7 +27,7 @@
 #BannerHeader{
     /* flex:1 1; */
     font-size: 30px;
-    color:black;
+    /* color:black; */
     /* font-weight: bold; */
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
