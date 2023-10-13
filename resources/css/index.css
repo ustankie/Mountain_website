@@ -4,9 +4,9 @@
     color:white;
 }
 .banner{
-    /* background-color: #99c1f1; */
-    margin-top: 75px;
-    margin-left: 250px;
+    height: 150px;
+    background-color: #e6f9ff; 
+    padding-left: 250px;
     text-align: center;
     display: flex;
     flex: column;
@@ -16,16 +16,18 @@
 }
 
 #BannerMountainImage {
-    
+
     width: 500px;
     /* flex:1 2; */
     object-fit: scale-down;
+    align-self: flex-end;
 
 }
 
 #BannerHeader{
     /* flex:1 1; */
     font-size: 30px;
+    color:black;
     /* font-weight: bold; */
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -33,7 +35,8 @@
 }
 
 .nav-bar{
-    
+    margin-left: 0;
+    margin-right: 0;
     background-color: #2c89a0;
     display:flex;
         /* position: fixed; */
