@@ -1,14 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
+.body_{
+    background-color: #333333;
+    color:white;
+}
 .banner{
-    background-color: #99c1f1;
+    /* background-color: #99c1f1; */
     margin-top: 75px;
+    margin-left: 250px;
     text-align: center;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content:left;
+    column-gap: 60px;
 }
 
-/* #BannerMountainImage */
+#BannerMountainImage {
+    
+    width: 500px;
+    /* flex:1 2; */
+    object-fit: scale-down;
+
+}
+
+#BannerHeader{
+    /* flex:1 1; */
+    font-size: 30px;
+    /* font-weight: bold; */
+    font-style: italic;
+    font-family: "Lucida Handwriting Std", sans-serif;
+    align-self: flex-end;
+}
 
 .nav-bar{
-    background-color: #404040;
+    
+    background-color: #2c89a0;
     display:flex;
+        /* position: fixed; */
     align-items: center;
     flex-direction: row ;
     flex-wrap: wrap;
@@ -35,6 +62,6 @@
 }
 
 .nav-bar a.active{
-    background-color:#668cff;
-    color:white
+    background-color:#404040;
+    color:v
 }
