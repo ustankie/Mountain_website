@@ -9,6 +9,7 @@
     margin-left: 250px;
     text-align: center;
     display: flex;
+    flex: column;
     /* justify-content: space-around; */
     justify-content:left;
     column-gap: 60px;
