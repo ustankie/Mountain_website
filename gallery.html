@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/index.css"/>
+    <link rel="stylesheet" href="./resources/css/gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <title>Photo gallery</title>
 </head>
 <body class="body_">
@@ -45,5 +49,40 @@
             
         </ul>
     </nav>
+
+    <figure class="big-img" id="bigImgBox">
+        <img src="./resources/images/babia.JPG" id="bigImg" alt="Babia Góra">
+        <figcaption id="imgCaption"></figcaption>
+        <span onclick="closeBigImg()">x</span>
+    </figure>
+
+    <div class="img-gallery">
+        <img src="./resources/images/babia.JPG" alt="Babia Góra" onclick="openBigImg(this.src,this.alt)">
+        <img src="./resources/images/beskid_niski.JPG" alt="Bskid Niski" onclick="openBigImg(this.src)">
+        <img src="./resources/images/beskid_niski_jesien.JPG" alt="Beskid Niski jesienią" onclick="openBigImg(this.src,this.alt)">
+        <img src="./resources/images/bieszczady_lato.JPG" alt="Bieszczady latem" onclick="openBigImg(this.src,this.alt)">
+        <img src="./resources/images/bieszczady_zima.JPG" alt="Bieszczady zimą" onclick="openBigImg(this.src,this.alt)">
+        <img src="./resources/images/pieniny_pion.JPG" alt="Pieniny" onclick="openBigImg(this.src,this.alt)">
+        <img src="./resources/images/stolowe.JPG" alt="Góry Stołowe" onclick="openBigImg(this.src,this.alt)">
+        <img src="./resources/images/tatry_lato.JPG" alt="Tatry" onclick="openBigImg(this.src,this.alt)">
+    </div>
+
+    <script>
+        var bigImgBox =document.getElementById("bigImgBox");
+        var bigImg =document.getElementById("bigImg");
+        var imgCaption=document.getElementById("imgCaption");
+
+        function openBigImg(pic,caption){
+            bigImgBox.style.display="flex";
+            bigImg.src=pic;
+            imgCaption.textContent=caption;
+        }
+
+        function closeBigImg(){
+            bigImgBox.style.display="none";
+        }
+    </script>
+
+
 </body>
 </html>
