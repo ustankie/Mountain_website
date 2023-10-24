@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountains in Poland</title>
     <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="stylesheet" href="./resources/css/index_content.css">
+    <script src="./resources/js/scroll_down.js" defer></script> 
+
     
 </head>
 <body class="body_">
 
     <!-- <script type="module" src="./src/main.js"></script> -->
     <!-- banner section-->
-    <div class="banner">
+    <!-- <div class="banner">
         <img id="BannerMountainImage"src="./resources/images/mountain-drawing2.jpg" alt="">
         <header id="BannerHeader">
             Mountains in Poland
         </header>
-    </div>
+    </div> -->
 
     <!--navigation bar-->
     <nav class="nav-bar">
@@ -29,7 +32,7 @@
             
                 <ul class ="ranges_drop">
                     <li>
-                        <a href="">Karpaty</a>
+                        <a href="karpaty.html">Karpaty</a>
                     </li>
                     <li>
                         <a href="">Sudety</a>
@@ -48,11 +51,18 @@
     </nav>
 
     
-
+    <section class= "head-photo-sec">
+        <div class="head-photo">
+            <h1>Mountains in Poland</h1>
+            <h2>Dive into the beauty of Polish nature!</h2>
+            <button onclick="scrollDown()" class="btn" >Explore...</button>
+            </h1>
+        </div>
+    </section>
 
     <!--Mountains section-->
     <div>
-        <span> Mountains</span>
+        <span id="_text"> Mountains</span>
         <p>
             Mountains in Poland are, next to the Baltic Sea and lakes,  <br>
             one of the biggest attractions for tourists who value contact with nature.  <br>
@@ -132,5 +142,9 @@
             </li>
         </ul>
     </div>
+
+
+
+    
 </body>
 </html>

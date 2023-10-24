@@ -1,0 +1,59 @@
+.head-photo-sec{
+    /* position: absolute;
+    top:202px; */
+
+    width:100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://goryaktywnie.pl/wp-content/uploads/2022/10/bieszczady-zima-1160x680.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.head-photo h1{
+    color:#aeb5bf;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.head-photo h2{
+    color:#aeb5bf;
+}
+
+.head-photo .btn{
+    display: block;
+    width: 200px;
+
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    background-color: #2c89a0;
+    opacity: 70%;
+
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.head-photo .btn:hover{
+    background-color: #aeb5bf;
+}
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+}

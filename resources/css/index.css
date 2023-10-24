@@ -3,6 +3,8 @@
     background-color: #333333;
     color:white;
     z-index:1;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .banner{
     height: 150px;
@@ -30,16 +32,16 @@
     font-size: 30px;
     /* color:black; */
     /* font-weight: bold; */
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-style: italic; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     align-self: flex-end;
 }
 
 .nav-bar{
+
     margin-left: 0;
     margin-right: 0;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding:0;
     background-color: #2c89a0;
     display:flex;
     /* height:60px */
@@ -51,7 +53,9 @@
     flex-flow: row wrap;
     white-space: nowrap;
     justify-content: center;
-    
+    z-index:7;
+    /* position: fixed;
+    width:100%; */
 }
 
 .nav-bar a{
@@ -60,7 +64,7 @@
     /* display: flex; */
     text-align: center;
     color:white;
-    font-family: Garamond,serif;
+    /* font-family: Garamond,serif; */
     font-size: 17px;
     padding: 14px 16px;
     text-decoration: none;

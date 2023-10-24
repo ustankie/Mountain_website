@@ -1,0 +1,25 @@
+.head-photo-sec{
+    /* position: absolute;
+    top:202px; */
+
+    width:100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://v.wpimg.pl/MjVjYS5qYgs3CC9gGgpvHnRQezpcU2FII0hjcRpAf1JmEnY-GxciHjkINTxSGCxEJgZ2OFoBPwUhE3QkXBQ_CT5HbmsFQnUPYVhhZQ1HeFhjCTh9XwEqSCs);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.head-photo-sec{
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
