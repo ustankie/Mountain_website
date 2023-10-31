@@ -72,7 +72,7 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
-    grid-gap: 5%;
+    /* grid-gap: 5%; */
     
 
     
@@ -87,22 +87,24 @@
     padding-left: 40 px;
 }
 
+
+
 .side-img{
-    width: 52.4vw ;
+    width: 50vw ;
     height: auto;   
     top:0;
-    opacity:60%
+    opacity:80%
 }
 
 ._text1{
-    margin-right: 8%;
-    margin-left: 8%;
+    padding-right: 8%;
+    padding-left: 8%;
 
 }
 
 ._text2{
-    margin-right: 8%;
-    margin-left:8%;
+    padding-right: 8%;
+    padding-left:8%;
     /* right:100px; */
 
 }

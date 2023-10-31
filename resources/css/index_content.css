@@ -2,7 +2,7 @@
     /* position: absolute;
     top:202px; */
 
-    width:100vw;
+    width: 100vw;
     height: 100vh;
 
     display: flex;
@@ -11,7 +11,7 @@
 
     text-align: center;
 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://goryaktywnie.pl/wp-content/uploads/2022/10/bieszczady-zima-1160x680.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://goryaktywnie.pl/wp-content/uploads/2022/10/bieszczady-zima-1160x680.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
-    grid-gap: 5%;
+    /* grid-gap: 5%; */
     
 
     
@@ -86,21 +86,21 @@
 
 
 .side-img{
-    width: 52.4vw ;
+    width: 50vw ;
     height: auto;   
     top:0;
     opacity:80%
 }
 
 ._text1{
-    margin-right: 8%;
-    margin-left: 8%;
+    padding-right: 8%;
+    padding-left: 8%;
 
 }
 
 ._text2{
-    margin-right: 8%;
-    margin-left:8%;
+    padding-right: 8%;
+    padding-left:8%;
     /* right:100px; */
 
 }
