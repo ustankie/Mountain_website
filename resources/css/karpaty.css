@@ -3,7 +3,7 @@
     top:202px; */
 
     width:100vw;
-    height: 100vh;
+    height: 40vh;
 
     display: flex;
     justify-content: center;
@@ -13,13 +13,100 @@
 
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://v.wpimg.pl/MjVjYS5qYgs3CC9gGgpvHnRQezpcU2FII0hjcRpAf1JmEnY-GxciHjkINTxSGCxEJgZ2OFoBPwUhE3QkXBQ_CT5HbmsFQnUPYVhhZQ1HeFhjCTh9XwEqSCs);
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.head-photo-sec{
+.head-photo h1{
+    color:#aeb5bf;
     font-size: 3em;
-    margin-top: 0;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+.head-photo h2{
+    color:#aeb5bf;
+}
+
+.head-photo .btn{
+    display: block;
+    width: 200px;
+
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    background-color: #2c89a0;
+    opacity: 70%;
+
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.head-photo .btn:hover{
+    background-color: #aeb5bf;
+}
+
+
+
+.text-box {
+    /* position: sticky; */
+    /* position:relative; */
+    /* margin-top:0; */
+    margin-right:0;
+    top:0;
+    
+    /* padding-bottom: 40px; */
+    box-sizing:border-box;
+    display:    grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); 
+    width:100%;
+    line-height:    26px;
+    /* position:    static; */
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    grid-gap: 5%;
+    
+
+    
+}
+
+.head-photo-sec{
+    /* padding-top:40px; */
+    /* padding-right:40px; */
+}
+.tb2{
+    /* padding-right:0; */
+    padding-left: 40 px;
+}
+
+.side-img{
+    width: 52.4vw ;
+    height: auto;   
+    top:0;
+    opacity:60%
+}
+
+._text1{
+    margin-right: 8%;
+    margin-left: 8%;
+
+}
+
+._text2{
+    margin-right: 8%;
+    margin-left:8%;
+    /* right:100px; */
+
+}
+
+ .boldd{
+    font-weight: 600;
+ }
