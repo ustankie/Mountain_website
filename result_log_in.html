@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mountain Map</title>
     <link rel="stylesheet" href="./resources/css/index.css"/>
-    <link rel="stylesheet" href="./resources/css/mountain_map.css"/>
-    <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
-    <script type="text/javascript">Loader.lang = "en"; Loader.load()</script>
+    <!-- <link rel="stylesheet" href="./resources/css/log_in.css"/> -->
+    <script src="./resources/js/log_in.js" defer></script> 
+    <!-- <script src="./resources/js/results.js" defer></script>  -->
+
+    <title>Create account</title>
 </head>
 <body class="body_">
-
-    <!-- banner section-->
-    <div class="banner">
+     <!-- banner section-->
+     <div class="banner">
         <img id="BannerMountainImage"src="./resources/images/mountain-drawing2.jpg" alt="">
         <header id="BannerHeader">
             Mountains in Poland
@@ -40,29 +40,23 @@
                 </ul>
             </li>
             <li>
-                <a class="active" href="#map">Mountain map</a>
+                <a  href="./mountain_map.html">Mountain map</a>
             </li>
             <li>
-                <a  href="./quiz.html">Quiz</a>
+                <a  href="quiz.html">Quiz</a>
             </li>
             <li>
                 <a href="gallery.html">Photo gallery</a>
             </li>
             <li>
-                <a href="hiking_tours.html">Hiking tours</a>
+                <a  href="hiking_tours.html">Hiking tours</a>
             </li>
+            
         </ul>
     </nav>
-
-    <div id="mapa"></div>
-		<script type="text/javascript">
-			var stred = SMap.Coords.fromWGS84(19.9, 49.2,12);
-			var mapa = new SMap(JAK.gel("mapa"), stred, 10);
-			mapa.addDefaultLayer(SMap.DEF_BASE).enable();
-			mapa.addDefaultControls();
-		</script>
-        <!-- <h1>ala</h1> -->
-    
+    <div>
+        <a>Logged in!</a>
+    </div>
 
 </body>
 </html>

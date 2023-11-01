@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/index.css"/>
+    <link rel="stylesheet" href="./resources/css/create_an_account.css"/>
+    <script src="./resources/js/create_an_account.js" defer></script> 
+    <!-- <script src="./resources/js/results.js" defer></script>  -->
+
+    <title>Create account</title>
+</head>
+<body class="body_">
+     <!-- banner section-->
+     <div class="banner">
+        <img id="BannerMountainImage"src="./resources/images/mountain-drawing2.jpg" alt="">
+        <header id="BannerHeader">
+            Mountains in Poland
+        </header>
+    </div>
+
+
+    <!--navigation bar-->
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a class="ranges">Ranges</a>
+            
+                <ul class ="ranges_drop">
+                    <li>
+                        <a href="karpaty.html">Karpaty</a>
+                    </li>
+                    <li>
+                        <a href="">Sudety</a>
+                    </li>
+                        
+                </ul>
+            </li>
+            <li>
+                <a  href="./mountain_map.html">Mountain map</a>
+            </li>
+            <li>
+                <a  href="quiz.html">Quiz</a>
+            </li>
+            <li>
+                <a href="gallery.html">Photo gallery</a>
+            </li>
+            <li>
+                <a  href="hiking_tours.html">Hiking tours</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <form  action="results.html" method="GET" class="account-create" id="results">
+        <div class="form-control">
+            <label for="User_name">User Name:</label>
+            <input type="text" name="User_name" id="user_name" placeholder="ScoobyDoo"minlength="6" maxlength="15" >
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" id="Password" placeholder="**********" minlength="6" maxlength="15" >
+            <br>
+            <label for="confirmPassword">Confirm password:</label>
+            <input type="password"  id="confirmPassword" placeholder="**********" >
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="Email">Email: </label>
+            <input type="text" name="Email" id="Email" placeholder="xyz@gmail.com" >
+            <small></small>
+        </div>
+        <div class="form-control">
+            <label for="Phone">Phone: </label>
+            <input type="text" name="Phone" id="Phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" >
+            <small></small>
+        </div>
+
+        <div class="form-control">
+            <label for="Birthdate">Birthdate: </label>
+            <input type="date" name="Birthdate" id="Birthdate" >
+            <small></small>
+        </div>
+
+        <div class="form-control">
+            <label for="Gender">Gender: </label>
+            <br>
+            <label for="male">M</label>       
+            <input type="radio" id="male" value="M" name="Gender">
+            
+            <label for="female">F</label>
+            <input type="radio" id="female" value="F" name="Gender">
+        </div>
+
+
+
+        <div class="form-control">
+            <label for="Comment">Comment: </label>
+           <textarea  name="Comment" id="Comment" cols="50" rows="10"></textarea>
+        </div> 
+       
+        <div class="form-control">
+            <input type="reset" id="reset">
+            <!-- <input type="button"  id="check" value="Check"> -->
+            <input type="submit"  id="submit" value="Submit">
+        </div>
+    </form>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+</body>
+</html>

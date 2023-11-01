@@ -1,0 +1,139 @@
+
+.head-photo-sec{
+    /* position: absolute;
+    top:202px; */
+
+    width:100vw;
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://martynasoul.com/wp-content/uploads/2023/08/babia-gora-szlak-przelecz-krowiarki-2.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.head-photo h1{
+    color:#aeb5bf;
+    font-size: 3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.head-photo h2{
+    color:#aeb5bf;
+}
+
+.head-photo .btn{
+    display: block;
+    width: 200px;
+
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    background-color: #2c89a0;
+    opacity: 70%;
+
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.head-photo .btn:hover{
+    background-color: #aeb5bf;
+}
+
+#text_{
+    padding-top: 50px;
+    /* padding-left: 10%;
+    padding-right: 30%;  */
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+
+}
+
+#text_content{
+    width: 50%;
+    text-align: center;
+    -ms-flex-align: center;
+}
+
+.divv{
+    display: flex;
+    flex-direction: row;
+    flex:auto;
+    column-gap: 30px;
+}
+
+
+#text_ input[type="submit"]{
+    /* position: relative; */
+    display: inline-block;
+    width: auto;
+    height:50px;
+    cursor: pointer;
+    text-decoration: none;
+
+    padding:2% 2%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em;
+
+    background-color: transparent;
+    opacity: 70%;
+
+    border: 0.2em solid  	#f90063;
+    border-radius: 10px;
+
+    color: 	#f90063;
+}
+#text_ input[type="submit"]:hover{
+    background-color: rgba(249,	0,	99,0.6);
+    color:black;
+    
+    /* opacity:20%; */
+}
+/* 
+#text_ #create{
+    background-color: #b30000;
+} 
+
+
+#text_ #create:hover{
+    background-color: #aeb5bf;
+}  */
+#text_ #log{
+    color:  	#a6fd29;
+    border: 0.2em solid  	#a6fd29;
+} 
+
+
+#text_ #log:hover{
+    background-color: rgba(166,	253	,41,0.6);
+    color:black;
+} 
+
