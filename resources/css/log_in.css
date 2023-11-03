@@ -20,7 +20,7 @@
 
 }
 .log_in{
-    overflow:scroll;
+    /* overflow:scr/oll; */
     
     display: flex;
     row-gap: 20px;

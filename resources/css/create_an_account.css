@@ -4,7 +4,7 @@
     align-items: center;
 }
 .window{
-    overflow:scroll;
+    /* overflow:scroll; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@
 
 }
 .account-create{
-    overflow:scroll;
+    /* overflow:scroll; */
     
     display: flex;
     row-gap: 20px;
