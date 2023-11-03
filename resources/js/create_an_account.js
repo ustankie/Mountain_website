@@ -8,12 +8,24 @@ const elements=[user_name,email,pwd,conPwd];
 
 function validateInput(){
     let canProcede=new Boolean(true);
-    if(user_name.value.trim()===""){
+    if(user_name.value.trim()==="" ){
        onError(user_name,"Username cannot be empty");
        canProcede=false;
     }else{
-        onSuccess(user_name);
-    }
+        if(user_name.value.trim().length<6){
+        onError(user_name,"Username is too short! Must be at least 6 characters");
+        canProcede=false;
+        }
+        else{ 
+            if(user_name.value.trim().length>15){
+            onError(user_name,"Username is too long! Must be maximum 15 characters");
+            canProcede=false;
+            }
+            else{
+                onSuccess(user_name);
+            }
+        }
+    } 
 
     if(email.value.trim()==="" || email.value==null){
         onError(email,"Email cannot be empty");
@@ -37,7 +49,7 @@ function validateInput(){
      }
      if(conPwd.value.trim()===""){
         onError(conPwd,"Confirm password!");
-        canProcede=False;
+        canProcede=false;
      }else{
          if(pwd.value.trim()!==conPwd.value.trim()){
             onError(conPwd,"Passwords are not the same!");
@@ -47,24 +59,22 @@ function validateInput(){
          onSuccess(conPwd);
      }
      
-    // let a=canProcede;
+
     return canProcede;
 
 }
 
 document.getElementById("submit").addEventListener("click",(event)=>{
- //  event.preventDefault();
+
     let canProcede=validateInput();
     if(!canProcede){
         event.preventDefault();
     }
-    // if(canProcede){
-    //     window.location.replace("results.html");
-    // }
+
 });
 
 document.getElementById("reset").addEventListener("click",(event)=>{
-    event.preventDefault();
+    
     elements.forEach((element)=>{
         normal(element);
     })

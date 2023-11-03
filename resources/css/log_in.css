@@ -1,0 +1,93 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    flex-direction: column;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://www.e-horyzont.pl/media/mageplaza/blog/post/w/i/wiosna-w-gorach-front.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.log_in{
+    overflow:scroll;
+    
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding:0;
+
+    color:black;
+    border-radius: 10px;
+
+    width:30%;
+    opacity:90%;
+    background-color: #d9d9d9;
+
+
+}
+
+.inner{
+    position: relative;
+    overflow:scroll;
+    width:80%;
+    display: flex;
+    margin-left:0;
+    margin-right:0;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    margin-top:10px;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+.form-control{
+    position:relative;
+    width:80%;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 3px;
+
+}
+.form-control input{
+    display: block;
+    width:80%;
+    z-index: 50;
+    padding:10px;
+    border-radius: 10px;
+    border: 3px solid darkgray;
+}
+
+#sub{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+}
+
+.form-control #submit{
+    background-color: #2c89a0;
+    align-self: center;
+    width:80%;
+}
+
+.form-control #submit:hover{
+    background-color: rgb(154, 154, 154);
+
+}
+

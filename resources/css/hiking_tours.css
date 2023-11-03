@@ -1,7 +1,6 @@
 
 .head-photo-sec{
-    /* position: absolute;
-    top:202px; */
+
 
     width:100vw;
     height: 40vh;
@@ -55,8 +54,6 @@
 
 #text_{
     padding-top: 50px;
-    /* padding-left: 10%;
-    padding-right: 30%;  */
 
     width: 100%;
     display: flex;
@@ -86,7 +83,7 @@
 
 
 #text_ input[type="submit"]{
-    /* position: relative; */
+
     display: inline-block;
     width: auto;
     height:50px;
@@ -115,17 +112,9 @@
     background-color: rgba(249,	0,	99,0.6);
     color:black;
     
-    /* opacity:20%; */
+    
 }
-/* 
-#text_ #create{
-    background-color: #b30000;
-} 
 
-
-#text_ #create:hover{
-    background-color: #aeb5bf;
-}  */
 #text_ #log{
     color:  	#a6fd29;
     border: 0.2em solid  	#a6fd29;

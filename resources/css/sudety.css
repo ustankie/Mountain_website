@@ -11,7 +11,7 @@
 
     text-align: center;
 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://v.wpimg.pl/MjVjYS5qYgs3CC9gGgpvHnRQezpcU2FII0hjcRpAf1JmEnY-GxciHjkINTxSGCxEJgZ2OFoBPwUhE3QkXBQ_CT5HbmsFQnUPYVhhZQ1HeFhjCTh9XwEqSCs);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://its-poland.com/files/services_photos/5e30f48816fd13313cc0a8cd736d7d88.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -55,10 +55,8 @@
 
 
 .text-box {
-
     margin-right:0;
     top:0;
-    
 
     box-sizing:border-box;
     display:    grid;
