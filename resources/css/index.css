@@ -35,27 +35,31 @@
 .banner{
     height: 150px;
 
-    padding-left: 250px;
+    padding-left: 15%;
     text-align: center;
     display: flex;
     flex: column;
-
     justify-content:left;
     column-gap: 60px;
 }
 
 #BannerMountainImage {
+/* 
+    width: 25%; */
+    min-width: 25%;
+    max-width: 500px;
 
-    width: 500px;
-
-    object-fit: scale-down;
+    /* object-fit: scale-down; */
     align-self: flex-end;
 
 }
 
 #BannerHeader{
-    font-size: 30px;
+    font-size: 28px;
     align-self: flex-end;
+    width: 30%;
+
+
 }
 
 .nav-bar{
@@ -147,4 +151,49 @@
 
 
 
+footer{
+    background-color: rgba(0, 0, 0, 0.56);
+    height: auto;
+    width:100%;
+    margin:0;
+}
 
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.footer-content h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.6rem;
+    padding:0;
+    margin: 0;
+}
+.smedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    
+    column-gap: 30px;
+}
+/* .footer-content p{
+
+} */
+
+.footer-bottom{
+    display: flex;
+    background-color: black;
+    width:100%;
+    text-align: center;
+    justify-content: center;
+
+}
