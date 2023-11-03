@@ -149,13 +149,18 @@
     z-index:300;
 }
 
-
+.box{
+    height: 100vh;
+}
 
 footer{
     background-color: rgba(0, 0, 0, 0.56);
     height: auto;
     width:100%;
     margin:0;
+    z-index: 1000;
+    position: absolute;
+    
 }
 
 .footer-content{
@@ -174,14 +179,21 @@ footer{
     text-transform: capitalize;
     line-height: 1.6rem;
     padding:0;
+    padding-bottom:15px;
     margin: 0;
+    border-bottom: 1px solid white;
 }
+
+
+
 .smedia{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     list-style: none;
+    padding:0;
+    margin:0;
     
     column-gap: 30px;
 }
