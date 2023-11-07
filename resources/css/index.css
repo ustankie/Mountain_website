@@ -158,7 +158,7 @@
     display: flex;
     flex-direction: column ;
     /* column-gap: 10%; */
-    row-gap: 20%;
+    row-gap: 20vh;
     height: 100vh;
 }
 
