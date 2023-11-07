@@ -1,7 +1,7 @@
 
 .img-gallery{
-    position: absolute;
-    top:202px;
+    position: relative;
+    top:0;
     left:50%;
     transform:translate(-50%);
     width:100%;

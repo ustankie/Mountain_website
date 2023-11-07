@@ -50,79 +50,82 @@
             
         </ul>
     </nav>
-    <div class="window">
-        <form  action="results.html" method="GET" class="account-create" id="results">
-            <div class="inner">
-                <div class="form-control">
-                    <label for="User_name">User Name:</label>
-                    <input type="text" name="User_name" id="user_name" placeholder="ScoobyDoo"minlength="6" maxlength="15" >
-                    <small></small>
-                </div>
-                <div class="form-control">
-                    <label for="Password">Password:</label>
-                    <input type="password" name="Password" id="Password" placeholder="**********" minlength="6" maxlength="15" >
-                    <br>
-                    <label for="confirmPassword">Confirm password:</label>
-                    <input type="password"  id="confirmPassword" placeholder="**********" >
-                    <small></small>
-                </div>
-                <div class="form-control">
-                    <label for="Email">Email: </label>
-                    <input type="text" name="Email" id="Email" placeholder="xyz@gmail.com" >
-                    <small></small>
-                </div>
-                <div class="form-control">
-                    <label for="Phone">Phone: </label>
-                    <input type="text" name="Phone" id="Phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" >
-                    <small></small>
-                </div>
+    <div class="box1">
+        <div class="box">
+            <div class="window">
+                <form  action="results.html" method="GET" class="account-create" id="results">
+                    <div class="inner">
+                        <div class="form-control">
+                            <label for="User_name">User Name:</label>
+                            <input type="text" name="User_name" id="user_name" placeholder="ScoobyDoo"minlength="6" maxlength="15" >
+                            <small></small>
+                        </div>
+                        <div class="form-control">
+                            <label for="Password">Password:</label>
+                            <input type="password" name="Password" id="Password" placeholder="**********" minlength="6" maxlength="15" >
+                            <br>
+                            <label for="confirmPassword">Confirm password:</label>
+                            <input type="password"  id="confirmPassword" placeholder="**********" >
+                            <small></small>
+                        </div>
+                        <div class="form-control">
+                            <label for="Email">Email: </label>
+                            <input type="text" name="Email" id="Email" placeholder="xyz@gmail.com" >
+                            <small></small>
+                        </div>
+                        <div class="form-control">
+                            <label for="Phone">Phone: </label>
+                            <input type="text" name="Phone" id="Phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" >
+                            <small></small>
+                        </div>
 
-                <div class="form-control">
-                    <label for="Birthdate">Birthdate: </label>
-                    <input type="date" name="Birthdate" id="Birthdate" >
-                    <small></small>
-                </div>
+                        <div class="form-control">
+                            <label for="Birthdate">Birthdate: </label>
+                            <input type="date" name="Birthdate" id="Birthdate" >
+                            <small></small>
+                        </div>
 
-                <div class="form-control" id="gend">
-                    <label for="Gender">Gender:&nbsp&nbsp</label>
-                    <label for="male">M</label>       
-                    <input type="radio" id="male" value="M" name="Gender">
+                        <div class="form-control" id="gend">
+                            <label for="Gender">Gender:&nbsp&nbsp</label>
+                            <label for="male">M</label>       
+                            <input type="radio" id="male" value="M" name="Gender">
+                            
+                            <label for="female">F</label>
+                            <input type="radio" id="female" value="F" name="Gender">
+                        </div>
+
+
+
+                        <div class="form-control">
+                            <label for="Comment">Comment: </label>
+                        <textarea  name="Comment" id="Comment" cols="25" rows="7"></textarea>
+                        </div> 
                     
-                    <label for="female">F</label>
-                    <input type="radio" id="female" value="F" name="Gender">
-                </div>
-
-
-
-                <div class="form-control">
-                    <label for="Comment">Comment: </label>
-                <textarea  name="Comment" id="Comment" cols="25" rows="7"></textarea>
-                </div> 
-            
-                <div class="form-control" id="btns">
-                    <input type="reset" id="reset">
-                    <input type="submit"  id="submit" value="Submit">
+                        <div class="form-control" id="btns">
+                            <input type="reset" id="reset">
+                            <input type="submit"  id="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- <script src="https://smtpjs.com/v3/smtp.js">
+        </script> -->
+        <footer>
+            <div class="footer-content">
+                <h3>Mountains in Poland</h3>
+                <p>Reach me on my social media!</p>
+                <div class="smedia">
+                    <a href="https://www.linkedin.com/in/urszula-stankiewicz-2ba7bb240"><img src="./resources/images/icons8-linkedin-50.png" alt="LinkedIn"></a>
+                    
+                    <a href="https://github.com/ustankie"><img src="./resources/images/icons8-github-50.png" alt="Github"></a>
                 </div>
             </div>
-        </form>
+
+            <div class="footer-bottom">
+                <p>Copyright &copy;2023 Urszula Stankiewicz</p>
+            </div>
+        </footer>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-    <footer>
-        <div class="footer-content">
-            <h3>Mountains in Poland</h3>
-            <p>Reach me on my social media!</p>
-            <div class="smedia">
-                <a href="https://www.linkedin.com/in/urszula-stankiewicz-2ba7bb240"><img src="./resources/images/icons8-linkedin-50.png" alt="LinkedIn"></a>
-                
-                <a href="https://github.com/ustankie"><img src="./resources/images/icons8-github-50.png" alt="Github"></a>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <p>Copyright &copy;2023 Urszula Stankiewicz</p>
-        </div>
-    </footer>
-
 </body>
 </html>

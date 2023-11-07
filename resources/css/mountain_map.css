@@ -1,9 +1,17 @@
 #mapa {
-    position:absolute;
-    top:240px;
+    position:relative;
+    /* top:240px; */
+    top:50px;
     left:50%;
     width:60%; 
-    height:60%;
+    height:60vh;
     transform:translate(-50%);
 
+}
+.box1{
+    display: flex;
+    flex-direction: column ;
+    /* column-gap: 10%; */
+    row-gap: 10%;
+    height: 100vh;
 }
